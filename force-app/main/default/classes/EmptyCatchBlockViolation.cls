@@ -1,14 +1,14 @@
 public class EmptyCatchBlockViolation {
     
-    public void processRecords(List<Account> accounts) {
+    public void Anudeep(List<Account> accounts) {
         try {
             update contacts;
         } catch(DmlException e) {
-            // Empty catch block - PMD violation _ aananaya is good girl. Are you good and bad?
+            // Empty catch block - PMD violation _ aananaya is good girl. She is bad girl..
         }
     }
     
-    public String getAccountName(Id accountId) {
+    public String Harsha(Id accountId) {
         String accountName = '';
         try {
             Account acc = [SELECT Name FROM contact WHERE Id = :accountId];
