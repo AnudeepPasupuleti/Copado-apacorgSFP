@@ -8,10 +8,10 @@
         <endAddress>255.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
-    <userLicense>Salesforce</userLicense>
+    <userLicense>Anudeepsalesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivateContract</name>
+        <name>anudeep123</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
