@@ -4,8 +4,7 @@ public class EmptyCatchBlockViolation {
         try {
             update contacts;
         } catch(DmlException e) {
-            // Empty catch block - PMD violation _ anudeep tsting and all
-            //testing to get the conflict
+            // Empty catch block - PMD violation _ aananaya is good girl. Are you good and bad?
         }
     }
     
