@@ -2,24 +2,23 @@
 public class TestingConflictTest {
     
     /**
-     * Test method for printMessage()
+     * Test method for printMessage() - MODIFIED TO EXPECT DIFFERENT OUTPUT
      */
     @isTest
     static void testPrintMessage() {
         Test.startTest();
         
-        // Call the method to print message
+        // Call the modified method
         TestingConflict.printMessage();
         
         Test.stopTest();
         
-        // Since System.debug doesn't return a value, we verify the method executes without exception
-        // In a real scenario, you might want to capture debug logs for verification
-        System.assert(true, 'printMessage method executed successfully');
+        // This assertion will conflict with original expectations
+        System.assert(true, 'Modified printMessage method executed - CONFLICT VERSION');
     }
     
     /**
-     * Test method for getMessage()
+     * Test method for getMessage() - MODIFIED EXPECTATIONS
      */
     @isTest
     static void testGetMessage() {
@@ -29,62 +28,56 @@ public class TestingConflictTest {
         
         Test.stopTest();
         
-        // Verify the returned message
-        System.assertEquals('Testing Conflict', result, 'getMessage should return "Testing Conflict"');
-        System.assertNotEquals(null, result, 'Result should not be null');
-        System.assert(result.length() > 0, 'Result should not be empty');
+        // Changed expected value - will conflict with original test
+        System.assertEquals('Testing Deployment Conflict - Version 2.0', result, 'getMessage should return modified message');
+        System.assertNotEquals('Testing Conflict', result, 'Should not return original message');
     }
     
     /**
-     * Test method for printMessageWithContext()
+     * Test method for printMessageWithContext() - METHOD SIGNATURE CHANGED
      */
     @isTest
     static void testPrintMessageWithContext() {
         Test.startTest();
         
-        // Call the method to print message with context
-        TestingConflict.printMessageWithContext();
+        // Method now requires parameter - will break original version
+        TestingConflict.printMessageWithContext('Production');
         
         Test.stopTest();
         
-        // Verify method executes without exception
-        System.assert(true, 'printMessageWithContext method executed successfully');
+        System.assert(true, 'Modified printMessageWithContext with parameter executed');
     }
     
     /**
-     * Test method to verify all methods can be called in sequence
+     * MODIFIED - Different logic that will conflict
      */
     @isTest
     static void testAllMethodsSequence() {
         Test.startTest();
         
-        // Test calling all methods in sequence
+        // Different sequence and expectations
         TestingConflict.printMessage();
         String message = TestingConflict.getMessage();
-        TestingConflict.printMessageWithContext();
+        TestingConflict.printMessageWithContext('QA Environment');
+        TestingConflict.newConflictMethod(); // NEW method call
         
         Test.stopTest();
         
-        // Verify the sequence executed successfully
-        System.assertEquals('Testing Conflict', message, 'All methods should work in sequence');
+        // Different assertion
+        System.assert(message.contains('Deployment Conflict'), 'Should contain Deployment Conflict text');
     }
     
     /**
-     * Test method to verify static methods can be called multiple times
+     * COMPLETELY NEW TEST - will conflict if someone else added different test
      */
     @isTest
-    static void testMultipleInvocations() {
+    static void testNewConflictMethod() {
         Test.startTest();
         
-        // Call methods multiple times
-        for(Integer i = 0; i < 5; i++) {
-            TestingConflict.printMessage();
-            String result = TestingConflict.getMessage();
-            System.assertEquals('Testing Conflict', result, 'Method should return consistent results');
-        }
+        TestingConflict.newConflictMethod();
         
         Test.stopTest();
         
-        System.assert(true, 'Multiple invocations completed successfully');
+        System.assert(true, 'New conflict method test passed');
     }
 }
