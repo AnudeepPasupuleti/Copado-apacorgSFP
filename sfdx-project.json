@@ -1,15 +1,18 @@
 {
-  "name": "your_project_name",
-  "namespace": "your_namespace",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0",
   "packageDirectories": [
     {
+      "path": "force-app",
+      "default": true,
       "package": "player_package",
-      "path": "force-app/main/default",
-      "default": true
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "definitionFile": "config/project-scratch-def.json"
     }
   ],
+  "name": "player_package",
+  "namespace": null,
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
   "packageAliases": {
     "player_package": "0Ho000000000000"
   }
