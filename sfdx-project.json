@@ -10,7 +10,7 @@
     }
   ],
   "name": "player_package",
-  "namespace": null,
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "64.0",
   "packageAliases": {
