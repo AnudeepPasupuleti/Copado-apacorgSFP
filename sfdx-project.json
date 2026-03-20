@@ -1,1 +1,20 @@
-{\n  "packageDirectories": [\n    {\n      "path": "force-app",\n      "default": true,\n      "package": "player_package_anudeep_20260320",\n      "versionName": "ver 1.0",\n      "versionNumber": "1.0.0.NEXT",\n      "versionDescription": "",\n      "definitionFile": "config/project-scratch-def.json"\n    }\n  ],\n  "name": "player_package_anudeep_20260320",\n  "namespace": null,\n  "sfdcLoginUrl": "https://login.salesforce.com",\n  "sourceApiVersion": "64.0",\n  "packageAliases": {\n    "player_package_anudeep_20260320": "0Ho000000000000"\n  }\n}
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "player_package_anudeep_20260320",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "",
+      "definitionFile": "config/project-scratch-def.json"
+    }
+  ],
+  "name": "player_package_anudeep_20260320",
+  "namespace": null,
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "player_package_anudeep_20260320": "0Ho000000000000"
+  }
+}
