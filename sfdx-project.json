@@ -23,7 +23,7 @@
     }
   ],
   "name": "player_package_anudeep_20260320",
-  "namespace": null,
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "64.0",
   "packageAliases": {
