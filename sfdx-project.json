@@ -1,1 +1,35 @@
-{\n  "packageDirectories": [\n    {\n      "path": "force-app",\n      "default": true,\n      "package": "player_package_anudeep_20260320",\n      "versionName": "ver 0.1",\n      "versionNumber": "0.1.0.NEXT",\n      "versionDescription": ""\n    },\n    {\n      "versionName": "ver 0.1",\n      "versionNumber": "0.1.0.NEXT",\n      "path": "iplteams/main",\n      "default": false,\n      "package": "iplteams",\n      "versionDescription": "",\n      "dependencies": [\n        {\n          "subscriberPackageVersionId": "04tWz000000UaHNIA0"\n        }\n      ]\n    }\n  ],\n  "name": "player_package_anudeep_20260320",\n  "namespace": null,\n  "sfdcLoginUrl": "https://login.salesforce.com",\n  "sourceApiVersion": "64.0",\n  "packageAliases": {\n    "player_package_anudeep_20260320": "0HoWz00000005pJKAQ",\n    "player_package_anudeep_20260320@0.1.0-1-main": "04tWz000000UaFlIAK",\n    "player_package_anudeep_20260320@0.1.0-2-main": "04tWz000000UaHNIA0",\n    "iplteams": "0HoWz00000005qvKAA"\n  }\n}
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "player_package_anudeep_20260320",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "iplteams/main",
+      "default": false,
+      "package": "iplteams",
+      "versionDescription": "",
+      "dependencies": [
+        {
+          "subscriberPackageVersionId": "04tWz000000UaHNIA0"
+        }
+      ]
+    }
+  ],
+  "name": "player_package_anudeep_20260320",
+  "namespace": null,
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "player_package_anudeep_20260320": "0HoWz00000005pJKAQ",
+    "player_package_anudeep_20260320@0.1.0-1-main": "04tWz000000UaFlIAK",
+    "player_package_anudeep_20260320@0.1.0-2-main": "04tWz000000UaHNIA0",
+    "iplteams": "0HoWz00000005qvKAA"
+  }
+}
