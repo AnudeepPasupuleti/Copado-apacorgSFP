@@ -4,21 +4,18 @@
       "path": "force-app",
       "default": true,
       "package": "player_package_anudeep_20260320",
-      "versionName": "ver 0.2",
-      "versionNumber": "0.2.0.NEXT",
+      "versionName": "ver 0.3",
+      "versionNumber": "0.3.0.NEXT",
       "versionDescription": ""
     },
     {
-      "versionName": "ver 0.3",
-      "versionNumber": "0.3.0.NEXT",
+      "versionName": "ver 0.4",
+      "versionNumber": "0.4.0.NEXT",
       "path": "iplteams/main",
       "default": false,
       "package": "iplteams",
       "versionDescription": "",
-      "dependencies": [
-        {
-          "subscriberPackageVersionId": "04tWz000000UaPRIA0"
-        }
+      
       ]
     }
   ],
