@@ -9,9 +9,9 @@
       "versionDescription": ""
     },
     {
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "path": "iplteams/main",
+      "path": "iplteams/main"
+      "versionName": "ver 0.4",
+      "versionNumber": "0.4.0.NEXT",
       "default": false,
       "package": "iplteams",
       "versionDescription": ""
