@@ -2,7 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true,
+      "default": false,
       "package": "player_package_anudeep_20260320",
       "versionName": "ver 0.3",
       "versionNumber": "0.3.0.NEXT",
@@ -12,7 +12,7 @@
       "versionName": "ver 0.5",
       "versionNumber": "0.5.0.NEXT",
       "path": "iplteams/main",
-      "default": false,
+      "default": true,
       "package": "iplteams",
       "versionDescription": "",
       
