@@ -12,7 +12,7 @@
       "path": "iplteams/main",
       "versionName": "ver 0.4",
       "versionNumber": "0.4.0.NEXT",
-      "default": false,
+      "default": true,
       "package": "iplteams",
       "versionDescription": ""
     }
