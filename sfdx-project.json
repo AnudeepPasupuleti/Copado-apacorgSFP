@@ -1,3 +1,4 @@
+```json
 {
   "packageDirectories": [
     {
@@ -9,14 +10,12 @@
       "versionDescription": ""
     },
     {
-      "versionName": "ver 0.5",
-      "versionNumber": "0.5.0.NEXT",
       "path": "iplteams/main",
       "default": true,
       "package": "iplteams",
-      "versionDescription": "",
-      
-      
+      "versionName": "ver 0.5",
+      "versionNumber": "0.5.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "player_package_anudeep_20260320",
@@ -27,9 +26,10 @@
     "player_package_anudeep_20260320": "0HoWz00000005pJKAQ",
     "player_package_anudeep_20260320@0.1.0-1-main": "04tWz000000UaFlIAK",
     "player_package_anudeep_20260320@0.1.0-2-main": "04tWz000000UaHNIA0",
+    "player_package_anudeep_20260320@0.2.0-1-main": "04tWz000000UaPRIA0",
     "iplteams": "0HoWz00000005qvKAA",
     "iplteams@0.1.0-1-main": "04tWz000000UaNpIAK",
-    "player_package_anudeep_20260320@0.2.0-1-main": "04tWz000000UaPRIA0",
     "iplteams@0.3.0-1-main": "04tWz000000UaR3IAK"
   }
 }
+```
