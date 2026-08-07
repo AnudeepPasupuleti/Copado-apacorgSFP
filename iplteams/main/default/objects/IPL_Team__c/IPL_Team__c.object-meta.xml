@@ -5,7 +5,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <sharingModel>ReadWrite</sharingModel>
     <nameField>
-        <label>Team Name</label>
+        <label>Team Names</label>
         <type>Text</type>
     </nameField>
 </CustomObject>
