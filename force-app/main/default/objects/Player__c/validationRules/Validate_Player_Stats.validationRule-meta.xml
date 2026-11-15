@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Player_Stats</fullName>
+    <active>true</active>
+    <errorConditionFormula><![CDATA[
+OR(
+  Age__c < 10,
+  Age__c > 60,
+  Highest_Score__c < 0,
+  Matches_Played__c < 0
+)
+]]></errorConditionFormula>
+    <errorMessage>Please enter valid player stats: Age must be between 10 and 60, and scores/matches cannot be negative.</errorMessage>
+</ValidationRule>
